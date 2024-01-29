@@ -3,7 +3,6 @@ import DraggableImage from './DraggableImage';
 import './App.css';
 import useImageLogic from './useImageLogic';
 
-
 const App = () => {
   const {
     images,
@@ -52,9 +51,9 @@ const App = () => {
         <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style3', 4)}>Рамка Большие</button>
         <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style4', 4)}>Рамка Маленькие</button>
         <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style5', 4)}>Прямоугольник</button>
-        {/* <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style6', 6)}>Сердечка</button> */}
+        <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style6', 2)}>BadaBig=14x10.5</button>
         <button className='toggle-borders-button printable' onClick={handleToggleBorders}>
-          {images[activeIndex]?.showBorders ? 'Отключить границы' : 'Границы включены'}
+          {images[activeIndex]?.showBorders ? 'Отключить границы?' : 'Границы отключены'}
         </button>
         {images.map((image, index) => (
           <div key={index}>
@@ -68,5 +67,3 @@ const App = () => {
 };
 
 export default App;
-
-

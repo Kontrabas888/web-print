@@ -102,7 +102,7 @@ const DraggableImage = ({ src, onRemove, index, isActive, setActiveIndex }) => {
 
   return (
     <>
-      <div className={`resizable-image ${showBorders ? 'with-borders' : 'without-borders'}`} style={{ width: size.width, height: size.height, transform: `translate(${position.x}px, ${position.y}px)` }} ref={ref} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp}>
+      <div className={`resizable-container' ${showBorders ? 'with-borders' : 'without-borders'}`} style={{ width: size.width, height: size.height, transform: `translate(${position.x}px, ${position.y}px)` }} ref={ref} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp}>
         <img className='resizable-image' src={src} alt="Draggable" onMouseDown={handleMouseDown} draggable={false} />
         <div className='resize-handle top-left' onMouseDown={handleMouseDown} />
         <div className='resize-handle top-right' onMouseDown={handleMouseDown} />
@@ -114,12 +114,12 @@ const DraggableImage = ({ src, onRemove, index, isActive, setActiveIndex }) => {
         <button className='resize-button' onClick={() => handleSizeChange('decrease')}>
           Уменьшить
         </button>
-        <p>Количество нажатий: {clickCount}</p>
+        <p className='resize-button'>Количество нажатий: {clickCount}</p>
       </div>
       {isActive && (
         <div className="deleteImg">
           <button className="remove-button printable" onClick={onRemove}>
-            Удалить
+            Удалить изображение
           </button>
         </div>
       )}

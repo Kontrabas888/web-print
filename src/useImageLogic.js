@@ -25,6 +25,10 @@ const useImageLogic = () => {
     });
   };
 
+    const handleAddImage = (imageSrc) => {
+    setImages(prevImages => [...prevImages, { src: imageSrc, showBorders: true }]);
+  };
+
   const handleFileChange = (event, index) => {
     const file = event.target.files[0];
 
@@ -87,6 +91,10 @@ const useImageLogic = () => {
     }
   }, []);
 
+  useEffect(() => {
+  setImages(Array.from({ length: numberOfRectangles }, () => ({ src: null, showBorders: true })));
+  }, [numberOfRectangles]);
+
  return {
     images,
     activeIndex,
@@ -97,7 +105,8 @@ const useImageLogic = () => {
     setImages: setImagesFunction,
     handleSetNumberOfRectangles,
     numberOfRectangles,
-    handleClearLocalStorage,
+   handleClearLocalStorage,
+    handleAddImage
   };
 };
 
