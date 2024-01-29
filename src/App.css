@@ -120,7 +120,7 @@ p {
 .back {
   position: fixed;
   top: 25px;
-  right: 450px;
+  right: 380px;
   border: 2px solid #ccc;
   border-radius: 20px;
   background-color: #f0f0f0;
@@ -238,7 +238,7 @@ p {
 .deleteImg {
   position: fixed;
   top: 25px;
-  right: 90px;
+  right: 150px;
 }
 
 .remove-button {
@@ -364,8 +364,8 @@ p {
 
 .rectangle-style1 {
   border: 2px solid red;
-  width: 408px;
-  height: 408px;
+  width: 418px;
+  height: 418px;
   position: relative;
   border-radius: 50%;
   overflow: hidden;
@@ -374,28 +374,28 @@ p {
 
 .rectangle-style2 {
   border: 2px solid red;
-  width: 317px;
-  height: 317px;
+  width: 327px;
+  height: 327px;
   position: relative;
   border-radius: 50%;
   overflow: hidden;
-  margin: 25px 15px 1px 45px;
+  margin: 25px 5px 1px 45px;
 }
 
 .rectangle-style3 {
   border: 2px solid red;
-  width: 362px;
-  height: 502px;
+  width: 380px;
+  height: 532px;
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  margin: 20px 1px 1px 17px;
+  margin: 8px 1px 1px 6px;
 }
 
 .rectangle-style4 {
   border: 2px solid red;
-  width: 287px;
-  height: 385px;
+  width: 304px;
+  height: 402px;
   position: relative;
   border-radius: 15px;
   overflow: hidden;
@@ -404,8 +404,8 @@ p {
 
 .rectangle-style5 {
   border: 2px solid red;
-  width: 325px;
-  height: 480px;
+  width: 342px;
+  height: 495px;
   position: relative;
   border-radius: 15px;
   overflow: hidden;
