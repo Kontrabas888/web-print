@@ -43,7 +43,7 @@ const ShapePage = () => {
     }
   };
 
-  const borderStyle = images[activeIndex]?.showBorders ? '2px solid red' : 'none';
+  const borderStyle = images[activeIndex]?.showBorders ? 'none' : '2px solid red';
 
 
   return (
@@ -78,7 +78,7 @@ const ShapePage = () => {
         <button className='plus-minus' onClick={() => changeSize(10)}>Увеличить +</button>
         <button className='plus-minus' onClick={() => changeSize(-10)}>Уменьшить -</button>
          <button className='toggle-borders-button printable' onClick={handleToggleBorders}>
-          {images[activeIndex]?.showBorders ? 'Отключить границы?' : 'Границы отключены'}
+          {images[activeIndex]?.showBorders ? 'Границы отключены' : 'Отключить границы?'}
         </button>
         <input className='input-img-button printable' type="file" onChange={handleSingleFileChange} />
         <button className='all-remove' onClick={handleClearLocalStorage}>Очистить память приложения!!!</button>

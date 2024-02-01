@@ -49,9 +49,9 @@ const App = () => {
         <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style1', 2)}>Большие Круглые</button>
         <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style2', 6)}>Маленькие Круглые</button>
         <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style3', 4)}>Рамка Большие</button>
-        <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style5', 4)}>Прямоугольник</button>
-        <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style4', 4)}>Рамка Маленькие</button>
-        <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style6', 2)}>BadaBig=14x10.5</button>
+        <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style4', 4)}>Прямоугольник</button>
+        <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style5', 4)}>Рамка Маленькие</button>
+        <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style6', 2)}>BadaBig=14,2x10.7</button>
         <button className='toggle-borders-button printable' onClick={handleToggleBorders}>
           {images[activeIndex]?.showBorders ? 'Отключить границы?' : 'Границы отключены'}
         </button>

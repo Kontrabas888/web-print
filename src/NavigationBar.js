@@ -6,7 +6,7 @@ const NavigationBar = () => {
     const navigate = useNavigate();
 
     const goToHomePage = () => {
-        navigate('/');
+        navigate('*');
     };
     
     const location = useLocation();

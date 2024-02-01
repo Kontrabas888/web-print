@@ -120,7 +120,7 @@ p {
 .back {
   position: fixed;
   top: 25px;
-  right: 380px;
+  right: 70px;
   border: 2px solid #ccc;
   border-radius: 20px;
   background-color: #f0f0f0;
@@ -144,8 +144,8 @@ p {
 .page {
   position: relative;
   margin-left: 380px;
-  width: 794px;
-  height: 1122px;
+  width: 785px;
+  height: 1114px;
   border: 2px solid black;
   border-radius: 10px;
   /* margin-top: 1px; */
@@ -155,7 +155,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 3px;
-  margin-top: 20px;
+  margin-top: 2px;
   margin-left: 2px;
 }
 
@@ -237,8 +237,8 @@ p {
 
 .deleteImg {
   position: fixed;
-  top: 25px;
-  right: 150px;
+  top: 80px;
+  right: 10px;
 }
 
 .remove-button {
@@ -369,57 +369,57 @@ p {
   position: relative;
   border-radius: 50%;
   overflow: hidden;
-  margin: 70px 20px 10px 190px;
+  margin: 70px 20px 10px 160px;
 }
 
 .rectangle-style2 {
   border: 2px solid red;
-  width: 327px;
-  height: 327px;
+  width: 352px;
+  height: 352px;
   position: relative;
   border-radius: 50%;
   overflow: hidden;
-  margin: 25px 5px 1px 45px;
+  margin: 5px 12px 1px 15px;
 }
 
 .rectangle-style3 {
   border: 2px solid red;
-  width: 380px;
-  height: 532px;
+  width: 384px;
+  height: 527px;
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  margin: 8px 1px 1px 6px;
+  margin: 8px 1px 1px 1px;
 }
 
 .rectangle-style4 {
-  border: 2px solid red;
-  width: 304px;
-  height: 402px;
-  position: relative;
-  border-radius: 15px;
-  overflow: hidden;
-  margin: 55px 4px 10px 65px;
-}
-
-.rectangle-style5 {
   border: 2px solid red;
   width: 342px;
   height: 495px;
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  margin: 35px 5px 10px 40px;
+  margin: 25px 15px 10px 20px;
+}
+
+.rectangle-style5 {
+  border: 2px solid red;
+  width: 308px;
+  height: 408px;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 55px 4px 5px 45px;
 }
 
 .rectangle-style6 {
   border: 2px solid red;
-  width: 402px;
-  height: 532px;
+  width: 408px;
+  height: 542px;
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  margin: 5px 2px 2px 175px;
+  margin: 1px 1px 1px 165px;
 }
 
 .all-remove {
