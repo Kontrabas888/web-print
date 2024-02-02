@@ -19,8 +19,8 @@ const NavigationBar = () => {
                 <button className='back printable' onClick={goToHomePage}>На главную</button>
             )}
             <ul className='bottoms-navigate'>
-                <li className='link-nav printable'><Link to="/main">Главная</Link></li>
-                <li className='link-nav printable'><Link to="/shapes">Фигуры</Link></li>
+                <li className='link-nav printable'><Link to="/main">Стандартные</Link></li>
+                <li className='link-nav printable'><Link to="/shapes">Размер</Link></li>
             </ul>
         </nav>
     );
