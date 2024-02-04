@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/web-print/static/css/main.f69dffcb.css",
+    "main.css": "/web-print/static/css/main.5966706b.css",
     "main.js": "/web-print/static/js/main.5104e25f.js",
     "static/media/cookis-man.gif": "/web-print/static/media/cookis-man.248f175d53b6536f81e2.gif",
     "index.html": "/web-print/index.html",
-    "main.f69dffcb.css.map": "/web-print/static/css/main.f69dffcb.css.map",
+    "main.5966706b.css.map": "/web-print/static/css/main.5966706b.css.map",
     "main.5104e25f.js.map": "/web-print/static/js/main.5104e25f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f69dffcb.css",
+    "static/css/main.5966706b.css",
     "static/js/main.5104e25f.js"
   ]
 }
