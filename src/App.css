@@ -379,17 +379,17 @@ p {
   position: relative;
   border-radius: 50%;
   overflow: hidden;
-  margin: 5px 12px 1px 15px;
+  margin: 5px 1px 1px 15px;
 }
 
 .rectangle-style3 {
   border: 2px solid red;
-  width: 384px;
+  width: 369px;
   height: 527px;
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  margin: 8px 1px 1px 1px;
+  margin: 8px 1px 1px 10px;
 }
 
 .rectangle-style4 {
@@ -399,7 +399,7 @@ p {
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  margin: 25px 15px 10px 20px;
+  margin: 25px 5px 10px 20px;
 }
 
 .rectangle-style5 {
