@@ -52,6 +52,7 @@ const App = () => {
         <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style4', 4)}>Прямоугольник</button>
         <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style5', 4)}>Рамка Маленькие</button>
         <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-style6', 2)}>BadaBig=14,2x10.7</button>
+        <button className='button-change' onClick={() => handleSetStyleAndNumber('rectangle-pasha', 4)}>Пасха</button>
         <button className='toggle-borders-button printable' onClick={handleToggleBorders}>
           {images[activeIndex]?.showBorders ? 'Отключить границы?' : 'Границы отключены'}
         </button>
