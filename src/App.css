@@ -320,7 +320,8 @@ p {
     border: none;
     width: 796px;
     height: 1120px;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
+    page-break-after: always;
   }
 }
 
