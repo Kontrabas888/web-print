@@ -144,8 +144,10 @@ p {
 .page {
   position: relative;
   margin-left: 380px;
-  width: 796px;
-  height: 1120px;
+  width: 210mm;
+  height: 297mm;
+  /* width: 796px;
+  height: 1120px; */
   border: 2px solid black;
   border-radius: 10px;
 }
@@ -318,8 +320,10 @@ p {
   }
   .page {
     border: none;
-    width: 796px;
-    height: 1120px;
+    width: 210mm;
+    height: 297mm;
+    /* width: 796px;
+    height: 1120px; */
     margin: 0;
     page-break-after: always;
   }
@@ -381,7 +385,7 @@ p {
   position: relative;
   border-radius: 50%;
   overflow: hidden;
-  margin: 5px 1px 1px 15px;
+  margin: 2px 1px 4px 25px;
 }
 
 .rectangle-style3 {
@@ -391,7 +395,7 @@ p {
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  margin: 2px 1px 1px 3px;
+  margin: 4px 1px 12px 13px;
 }
 
 .rectangle-style4 {
@@ -401,7 +405,7 @@ p {
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  margin: 25px 5px 10px 20px;
+  margin: 25px 5px 10px 30px;
 }
 
 .rectangle-style5 {
@@ -411,7 +415,7 @@ p {
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  margin: 55px 4px 5px 45px;
+  margin: 55px 4px 5px 55px;
 }
 
 .rectangle-style6 {
@@ -433,7 +437,7 @@ p {
 
   position: relative;
   overflow: hidden;
-  margin: 2px 0px 0px 2px;
+  margin: 2px 2px 4px 10px;
 }
 
 .all-remove {
